@@ -1,0 +1,105 @@
+.drop_panel
+{
+display: block;
+margin-top:6%;
+margin-left:-6pt;
+color:#daebf5;
+background-color:#62AAD3;
+width:101.6%;
+height:6%;
+text-align: left;
+font-size: 17px;
+/*border: 2px solid #CCDFEE;*/
+ }
+a.menu:link { color: #eeeeee; text-decoration: none; text-shadow:1px #ffffff;}
+a.menu:visited { color: #eeeeee; text-decoration: none;}
+a.menu:active { color: #666; text-decoration: none;}
+a.menu:hover { color: #ffffff; text-decoration: none;}
+
+a.side:link { color: #62AAD3; text-decoration: none;}
+a.side:visited { color: #62AAD3; text-decoration: none;}
+a.side:active { color: #62AAD3; text-decoration: none;}
+a.side:hover { color: #62CCEE; text-decoration: none;}
+
+a.sid:link { color: #62AAD3; text-decoration: underline;}
+a.sid:visited { color: #62AAD3; text-decoration: underline;}
+a.sid:active { color: #62AAD3; text-decoration: underline;}
+a.sid:hover { color: #62CCEE; text-decoration: underline;}
+
+.plus {
+       position:relative;
+		top:-2pt;
+		display: inline-block;
+		font-size:20px;
+		-webkit-transition: .1s ease-in-out;
+  		-moz-transition: .1s ease-in-out;
+  		-o-transition: .1s ease-in-out;
+	}
+	
+.drop-panel:hover .plus {
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+	}
+	
+/*		
+.drop-menu {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	padding: 10px 10px;
+	font-size: 22px;
+	height: 25px;
+	max-height: 25px;
+	width: 400px;
+	background: #fff;
+	cursor: pointer;
+	border: 1px solid #f6f0e4;
+}
+	
+*/	
+	
+	.drop-panel:hover {
+		border-left: 30px solid #62AAD3;
+	}
+	
+	.drop-panel:hover .sub-menu {
+		display: inline-block;
+	}
+	
+	
+	.sub-menu {
+		display: none;
+		width: 200px;
+		background: #62AAD3;
+		padding: 10px 10px;
+		margin-left: -230px;
+		margin-top: 5px;
+		border: 1px solid #fff;
+		-webkit-box-shadow: 0px 13px 25px rgba(0,0,0, 0.2);
+		-moz-box-shadow: 0px 13px 25px rgba(0,0,0, 0.2);
+		box-shadow: 0px 13px 25px rgba(0,0,0, 0.2);
+	}
+	
+	.sub-menu li {
+		list-style-type: none;
+		display: block;
+		border-bottom: 1px dotted #eaeaea;
+		font-size: 17px;
+		height: 20px;
+		padding: 8px 0;
+	}
+		
+		.sub-menu li img {
+			margin-right: .5em;
+		}
+	
+	.sub-menu li:hover {
+		border-bottom: 1px dotted #bababa;
+		color: #ffffff; 
+		text-decoration: none;
+		
+	}
+	
+ 

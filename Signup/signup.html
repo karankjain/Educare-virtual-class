@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>
+Educare|Sign Up
+</title>
+<link rel="stylesheet" type="text/css" href="../style.css" />
+</head>
+<body class="signup_main_body">
+<!--<div class="signin1">-->
+<form class="signup_main_grid" id="signup" action="signup.php" method="post">
+<div  class="signin_body">
+<?php
+          require_once('recaptchalib.php');
+          $publickey = "6LekscwSAAAAAAOVEjRsl5KaFBc8ikloymtCgv49"; // you got this from the signup page
+          echo recaptcha_get_html($publickey);
+        ?>
+<table cellpadding=10 cellspacing=2>
+<tr>
+<td class="signin_label">
+Sign Up
+</td>
+</tr>
+<tr>
+<td class="signin_att"> &nbsp First Name </td>
+<td><input type="text" name="Fname"/><br/></td>
+</tr>
+<tr>
+<td class="signin_att"> &nbsp Last Name </td>
+<td><input type="text" name="Lname"/><br/></td>
+</tr>
+<tr>
+<td class="signin_att"> &nbsp Email id </td>
+<td><input type="text" name="email"/><br/></td>
+</tr>
+<tr>
+<td class="signin_att">Password </td>
+<td><input type="password" name="password"/><br/></td>
+</tr>
+<tr>
+<td class="signin_att">  Gender </td>
+<td><select name="gender"> 
+<OPTION SELECTED VALUE="male">Male
+      <OPTION VALUE="female"> Female
+	  </select></td>
+</tr>
+</table>
+<table cellpadding=10 cellspacing=2>
+<tr><td class="signin_att"> Birth Date:</td>
+<td>
+<select name="date">
+<option selected value="dates">Date:
+<Option Value="1">1
+<Option Value="2">2
+</select>
+</td>
+<td>
+<select name="month">
+<option selected value="months">Month:
+<Option Value="jan">January
+<Option Value="feb">February
+</select>
+</td>
+<td>
+<select name="year">
+<option selected value="years">Year:
+<Option Value="1990">1990
+<Option Value="1991">1991
+</select>
+</td>
+</tr>
+</table>
+<table cellpadding=10>
+<tr>
+<td class="signin_att">  Occupation </td>
+<td><select name="occupation"> 
+<OPTION SELECTED VALUE="student">Student
+      <OPTION VALUE="teacher"> Teacher
+	  </select></td>
+</tr>
+<tr>
+<td><input type="submit" class="button" name="Sign_up" value="Sign Up">
+</td>
+</tr>
+<tr>
+<td>
+ <?php
+          require_once('recaptchalib.php');
+          $publickey = "6LekscwSAAAAAAOVEjRsl5KaFBc8ikloymtCgv49"; // you got this from the signup page
+          echo recaptcha_get_html($publickey);
+        ?>
+		</td>
+		</tr>
+</div>
+</table>
+
+<br/>
+<!--<hr width=135% color=#2f9bd5 height=10%> -->
+</form>
+</html>

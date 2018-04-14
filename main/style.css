@@ -1,0 +1,31 @@
+
+/* BASIC RESET 
+body, div, img, p { padding:0; margin:0; }
+a img { border:0 }
+*/
+/* HTML ELEMENTS 
+body { font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; background-color:#efefef; background-image:url(../images/bg.jpg); }
+*/
+
+/* COMMON CLASSES */
+.break { clear:both; }
+
+/* SEARCH FORM */
+#searchform { margin:50px 300px; font-size:17px; }
+#searchform div { color:#eeeeee; }
+#searchform div input { font-size:18px; padding:5px; width:310px; }
+#suggestions{ position: relative; left:51px; top:-430px; width:310px; display:none; }
+
+/* SEARCHRESULTS */
+#searchresults { border-width:1px; border-color:#62AAD3; border-style:solid; width:310px; background-color:#62AAD3; font-size:16px; line-height:15px; }
+#searchresults a { display:block; background-color:#DEEFF7; clear:left; height:56px; text-decoration:none; }
+#searchresults a:hover { background-color:#C3E1F2; color:#ffffff; }
+#searchresults a img { float:left; padding:5px 10px; }
+#searchresults a span.searchheading { display:block; font-weight:bold; padding-top:5px; color:#62AAD3; }
+#searchresults a:hover span.searchheading { color:#ffffff; }
+#searchresults a span { color:#62AAD3; }
+#searchresults a:hover span { color:#62CCEE; }
+#searchresults span.category { font-size:12px; margin:5px; display:block; color:#ffffff; }
+#searchresults span.seperator { float:right; padding-right:15px; margin-right:5px;
+			background-image:url(../images/shortcuts_arrow.gif); background-repeat:no-repeat; background-position:right; }
+#searchresults span.seperator a { background-color:transparent; display:block; margin:5px; height:auto; color:#ffffff; }

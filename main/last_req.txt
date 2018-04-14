@@ -1,0 +1,17 @@
+click on schedule lecture
+the entries will be TOPIC, DESCRIPTION, TIMING, DURATION.
+the entries selected from the table will be LECTURER, LECTURE UPLOADIING TIME, PROFFESSION OF LECTURER.
+display of upcoming lectures on main page on the basis of TIMING.
+a separate chat system must be created for the lecture.
+when click on the lecture before time, the user will be registered for the lecture.
+so the entry in the table will be the lecture name and the session_id.
+the lecturer can see any time the number of people registered.
+when the system time will be greater then timing, the following changes will take place,
+a click on lecture will be redirected to publisher.html
+a number of registered people will be displayed to the lecturer with a radio button. A textbox will be provided to send channel name to all selected student.
+when a registered student click on lecture after time, he will be first tested for registered or not for lecture. and from them only those a channel name can attend the lecture.
+after the current time - (schedule time + max duration) > 0 then the lecture will not be shown.
+try to do ajax for the display of list.
+chat box will also be shown on publisher.
+thats it.
+ 

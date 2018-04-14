@@ -1,0 +1,251 @@
+.body
+{
+background-image:url('images/newbg.jpg');
+background-size:100%; /* Firefox */
+/*background-size:100% 100%;*/
+background-repeat:no-repeat;
+/*height:100%;
+width: 100%;*/
+}
+.signin_grid
+{
+position:relative;
+top:60;
+left:680;
+color:#daebf5;
+background-color:#C9DFED;
+width:220pt;
+height:170pt;
+ border: 2px solid #D4E6F2;
+}
+
+.signin_body
+{
+position: relative;
+top:1pt;
+left:2pt;
+}
+.signin_label
+{
+font-family:Arial Rounded MT Bold;
+font-size:12pt;
+color:#259ebd;
+}
+.signin_att
+{
+font-family:Arial ;
+font-size:10pt;
+color:#259ebd;
+}
+.button
+{
+color:#daebf5;
+background-color:#259ebd;
+font-size: 10pt;
+font-family: Arial Rounded MT Bold;
+cursor:pointer;
+height:22pt;
+border:none;
+ border: 2px solid #268ebd;
+}
+
+#signup_grid
+{
+position:relative;
+top:30pt;
+left:-3pt;
+color:#daebf5;
+background-color:#C9DFED;
+width:220pt;
+height:100pt;
+ border: 2px solid #CCDFEE;
+ 
+}
+.signup_body
+{
+position: relative;
+top:3pt;
+left:3pt;
+}
+
+.signup_main_body
+{
+background-image:url('images/global.jpg');
+background-size:100% 100; /* Firefox */
+/*background-size:100% 100%;*/
+
+background-repeat:no-repeat;
+}
+.signup_main_grid
+{
+position:relative;
+top:42pt;
+left:240pt;
+display:block;
+color:#daebf5;
+background-color:#DEEFF7;
+width:300pt;
+height:410pt;
+ border: 2px solid #CCDFEE;
+ -webkit-box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+		-moz-box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+		box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+}
+.signval_main_grid
+{
+position:relative;
+top:72pt;
+left:140pt;
+color:#daebf5;
+background-color:#DEEFF7;
+width:400pt;
+height:250pt;
+ border: 2px solid #CCDFEE;
+ display:block;
+ -webkit-box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+		-moz-box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+		box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+ 
+}
+.deactivate_main_grid
+{
+position:relative;
+top:72pt;
+left:140pt;
+color:#daebf5;
+background-color:#DEEFF7;
+width:400pt;
+height:200pt;
+ border: 2px solid #CCDFEE;
+ display:block;
+ -webkit-box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+		-moz-box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+		box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+ 
+}
+/*.ul
+{
+float:left;
+width:100%;
+padding:5px;
+margin:0;
+list-style-type:none;
+
+}
+.a
+{
+float:left;
+width:6em;
+text-decoration:none;
+color:white;
+background-color:purple;
+padding:0.2em 0.6em;
+border-right:1px solid white;
+}
+.a:hover {background-color:#ff3300;}
+li {display:inline;}*/
+
+.body_side_bar
+{
+position:relative;
+top:35pt;
+left:16pt;
+color:#daebf5;
+background-color:#DEEFF7;
+width:180;
+height:370;
+border: 1px solid #CCDFEE;
+-webkit-box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+		-moz-box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+		box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+ }
+.body_side_bar_data
+{
+position:relative;
+top:1px;
+left:1px;
+}
+
+.search_grid
+/*{
+position:relative;
+top:10;
+left:-192;
+}*/
+{
+position:relative;
+top:-420;
+left:52;
+}
+.image
+{
+position:relative;
+top:20pt;
+left:10pt;
+display:block;
+width:142;
+height:142;
+-webkit-box-shadow: 5px 5px 20px rgba(0,0,0, 0.2);
+		-moz-box-shadow: 5px 5px 20px rgba(0,0,0, 0.2);
+		box-shadow: 5px 5px 20px rgba(0,0,0, 0.2);
+}
+
+.profile_grid
+{
+position:relative;
+top:-118;
+left:220;
+display:block;
+background-color:#DEEFF7;
+width:300pt;
+height:410pt;
+ border: 2px solid #CCDFEE;
+ -webkit-box-shadow: 5px 5px 20px rgba(0,0,0, 0.2);
+		-moz-box-shadow: 5px 5px 20px rgba(0,0,0, 0.2);
+		box-shadow: 5px 5px 20px rgba(0,0,0, 0.2);
+}
+
+.profile_body
+{
+color:#62AAD3;
+font-size:17px;
+}
+
+.update_profile_pic
+{
+position:relative;
+top:20;
+left:220;
+display:block;
+background-color:#DEEFF7;
+width:300pt;
+height:150pt;
+ border: 2px solid #CCDFEE;
+ -webkit-box-shadow: 5px 5px 20px rgba(0,0,0, 0.2);
+		-moz-box-shadow: 5px 5px 20px rgba(0,0,0, 0.2);
+		box-shadow: 5px 5px 20px rgba(0,0,0, 0.2);
+
+}
+
+.upload
+{
+position:relative;
+top:72pt;
+left:140pt;
+color:#daebf5;
+background-color:#DEEFF7;
+width:450pt;
+height:250pt;
+border: 2px solid #CCDFEE;
+display:block;
+ -webkit-box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+		-moz-box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+		box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+ 
+}
+.download_label
+{
+font-family:Arial Rounded MT Bold;
+font-size:18pt;
+color:#259ebd;
+}
